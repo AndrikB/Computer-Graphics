@@ -135,6 +135,3 @@ gradle-app.setting
 **/build/
 
 # End of https://www.gitignore.io/api/gradle,kotlin,intellij
-lab1/мануал.docx
-lab1/~$мануал.docx
-*.docx
