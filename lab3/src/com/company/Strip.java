@@ -126,6 +126,9 @@ public class Strip {
             }
             tempComputation = pointFromLine(p, vertex.get(allEdges.get(edges.get(mid)).x), vertex.get(allEdges.get(edges.get(mid)).y));
         }
+        if (tempComputation==0){
+            return  new Point(edges.get(mid), edges.get(mid));
+        }
         return new Point(edges.get(mid), edges.get(mid + 1));
 
     }

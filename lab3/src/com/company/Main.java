@@ -66,7 +66,7 @@ public class Main {
                 if (crossStrip(strip, vertex, edges.get(j)))
                     strip.edges.add(j);
             }
-            strip.sort(vertex, edges);
+            strip. sort(vertex, edges);
             arr.add(strip);
         }
 
@@ -95,6 +95,7 @@ public class Main {
             strip = strips.get(mid);
             tempComputation = strip.contain(p);
         }
+        System.out.println(mid);
         return strip;
     }
 
